@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shenGao"
+            />
+
+        <EditText
+            android:id="@+id/editShenGao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            
+            android:hint="请输入身高（m）" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiZhong" />
+
+        <EditText
+            android:id="@+id/editTiZhong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+             android:hint="请输入体重（kg）"  />
+
+    </TableRow>
+
+ <Button
+     android:id="@+id/btnJiSuan"
+     android:layout_width="150dp"
+     android:layout_height="50dp"
+     android:text="@string/jiSuan" />
+
+ <TextView
+     android:id="@+id/txtResult"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="结果：" />
+
+</TableLayout>

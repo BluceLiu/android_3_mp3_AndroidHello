@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidHello</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hiStr">你好，Android！</string>
+    <string name="shenGao">身高：</string>
+    <string name="tiZhong">体重：</string>
+    <string name="jiSuan">计算</string>
+
+</resources>
